@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './view/Home'
+import Home from './view/home/Home';
 import Contacto from './view/Contacto';
 import SobreNosotros from './view/SobreNosotros';
 import TomaHora from './view/TomaHora';
