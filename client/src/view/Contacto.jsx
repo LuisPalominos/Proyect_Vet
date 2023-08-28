@@ -1,7 +1,7 @@
 import React from 'react'
 import PageTemplate from '../template/PageTemplate'
 
-const Home = () => {
+const Contacto = () => {
 // ---------------------------------------------
 // I) VARIABLES & HOOKS
 // ---------------------------------------------
@@ -17,15 +17,15 @@ const Home = () => {
 // ---------------------------------------------
 // III) JSX
 // ---------------------------------------------
-return (
-    <div>
-        <PageTemplate>
-            <div>
-                home
-            </div>
-        </PageTemplate>
-    </div>
-)
+    return (
+        <div>
+            <PageTemplate>
+                <div>
+                    Contacto
+                </div>
+            </PageTemplate>
+        </div>
+    )
 }
 
-export default Home
+export default Contacto
