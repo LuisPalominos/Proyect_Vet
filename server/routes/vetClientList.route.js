@@ -7,9 +7,9 @@ const { getAllClients, getOneClient, createClient, deleteClient, editClient} = r
 
 // 2) Exporting Routes
 module.exports = (app) => {
-    app.get('/clients/', getAllClients);
-    app.get('/clients/:id/', getOneClient);
-    app.post('/clients/', createClient);
-    app.put('/clients/:id/', editClient);
-    app.delete('/clients/:id/', deleteClient);
+    app.get('/api/clients/', getAllClients);
+    app.get('/api/clients/:id/', getOneClient);
+    app.post('/api/clients/', createClient);
+    app.put('/api/clients/:id/', editClient);
+    app.delete('/api/clients/:id/', deleteClient);
 }

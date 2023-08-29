@@ -20,7 +20,7 @@ const VetClientListSchema = new mongoose.Schema(
     },
     Hour:{
         type: String,
-        required: [true, "please put due hour of your consult"],
+        // required: [true, "please put due hour of your consult"],
         enum: ["8am-9am", "9am-10am", "10am-11am", "11am-12am", "12am-1pm",
                 "1pm-2pm", "3pm-4pm", "4pm-5pm", "5pm-6pm", "6pm-7pm", "7pm-8pm"]
     },

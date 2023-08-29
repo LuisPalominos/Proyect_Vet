@@ -1,0 +1,9 @@
+.imgs{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 400px;
+}

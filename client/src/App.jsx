@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './view/home/Home';
 import Contacto from './view/Contacto';
-import SobreNosotros from './view/SobreNosotros';
+import SobreNosotros from './view/SobreNosotros/SobreNosotros';
 import TomaHora from './view/TomaHora';
 
 import {Routes, Route} from "react-router-dom";
