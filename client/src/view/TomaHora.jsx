@@ -121,8 +121,8 @@ const updateErrorMessages = (err) => {
                                 <div className="text-danger small">{errorMessages.email}</div>)}
                             </div>
                             <div className="d-flex justify-content-between m-3">
-                                <button type="button" className="btn btn-primary" onClick={handleClick}>Cancel</button>
-                                <button type="submit" className="btn btn-primary">Add</button>
+                                <button type="button" className="btn btn-outline-danger" onClick={handleClick}>Cancel</button>
+                                <button type="submit" className="btn btn-outline-success">Tomar Hora</button>
                             </div>
                         </div>
                     </form>
