@@ -15,8 +15,8 @@ const Home = () => {
   };
 
   const center = {
-    lat: -3.745,
-    lng: -38.523,
+    lat: -34.18303,
+    lng: -70.71659,
   };
 
   // ---------------------------------------------
@@ -79,7 +79,7 @@ const Home = () => {
               especializada
             </p>
           </div>
-          <div className="container d-flex justify-content-center">
+          <div className="container d-flex justify-content-center mb-5">
             {isLoaded ? (
                 <GoogleMap
                 mapContainerStyle={containerStyle}

@@ -13,8 +13,8 @@ const Contacto = () => {
   };
 
   const center = {
-    lat: -3.745,
-    lng: -38.523,
+    lat: -34.18303,
+    lng: -70.71659,
   };
 
   // ---------------------------------------------
@@ -67,7 +67,7 @@ const Contacto = () => {
               Nuestra Ubicacion: Pasaje Santa Marta #550
             </div>
           </div>
-          <div className="container d-flex justify-content-center mt-5 pt-5">
+          <div className="container d-flex justify-content-center my-5 pt-5">
             {isLoaded ? (
               <GoogleMap
                 mapContainerStyle={containerStyle}
