@@ -1,7 +1,7 @@
 import React from "react";
 import PageTemplate from "../template/PageTemplate";
 
-import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
+import { GoogleMap, useJsApiLoader, Marker} from "@react-google-maps/api";
 
 const Contacto = () => {
   // ---------------------------------------------
@@ -75,7 +75,15 @@ const Contacto = () => {
                 onLoad={onLoad}
                 onUnmount={onUnmount}
               >
-                {/* Child components, such as markers, info windows, etc. */}
+                {
+                  <Marker key="marker_1"
+                  title= 'Clinica Veterinaria Pepita'
+                  position={{
+                    lat: -34.18303,
+                    lng: -70.71659,
+                }}
+              />
+                }
                 <></>
               </GoogleMap>
             ) : (
