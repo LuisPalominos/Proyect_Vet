@@ -23,7 +23,7 @@ const Contacto = () => {
 
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "YOUR_API_KEY",
+    googleMapsApiKey: "AIzaSyDMbcQLrL6imuFVRqKbMYr8qdpWGXD-hUs",
   });
 
   const [map, setMap] = React.useState(null);

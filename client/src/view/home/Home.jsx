@@ -25,7 +25,7 @@ const Home = () => {
 
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "YOUR_API_KEY",
+    googleMapsApiKey: "AIzaSyDMbcQLrL6imuFVRqKbMYr8qdpWGXD-hUs",
   });
 
   const [map, setMap] = React.useState(null);
@@ -75,7 +75,7 @@ const Home = () => {
             <p className="container p-5 fs-3">
               Dedicados a cuidar la salud y bienestar de tus mascotas. Somos un
               equipo multidisciplinario y de referencia de la región de
-              O'higgins que apostamos a la medicina veterinaria integral y
+              O`higgins que apostamos a la medicina veterinaria integral y
               especializada
             </p>
           </div>
