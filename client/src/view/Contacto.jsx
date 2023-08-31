@@ -1,6 +1,8 @@
 import React from "react";
 import PageTemplate from "../template/PageTemplate";
 
+import Card from "react-bootstrap/Card";
+
 import { GoogleMap, useJsApiLoader, Marker} from "@react-google-maps/api";
 
 const Contacto = () => {
@@ -50,21 +52,41 @@ const Contacto = () => {
           <hr className="border border-3 border-success opacity-50" />
         </div>
         <div className="d-flex container mt-3  align-items-center flex-column">
-          <div className="container d-flex justify-content-between align-items-center my-5 py-5 px-5">
-            <div className="text-center text-white col-3 fs-3 bg-success border rounded-5 p-5 ms-5">
-              N° de Telefono: +569 97419179
-            </div>
-            <div className="text-center text-white col-3 fs-4 bg-success border rounded-5 p-5 me-5">
-              Email: vetpepita@gmail.com
-            </div>
+          <div className="container d-flex justify-content-between align-items-center my-5 p-5">
+              <Card style={{ width: "25rem", height: "15rem" }} bg="success" text="white" border="success" className="ms-5">
+                  <Card.Body className="d-flex flex-column align-items-center justify-content-center">
+                    <Card.Title className="fs-2">N° de Telefono:</Card.Title>
+                    <Card.Text className="fs-3">
+                        +569 97419179
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+                <Card style={{ width: "25rem", height: "15rem" }} bg="success" text="white" border="success" className="me-5">
+                  <Card.Body className="d-flex flex-column align-items-center justify-content-center">
+                    <Card.Title className="fs-2">Email:</Card.Title>
+                    <Card.Text className="fs-3">
+                    vetpepita@gmail.com
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
           </div>
           <div className="container d-flex justify-content-between align-items-center px-5">
-            <div className="text-center text-white col-3 fs-4 bg-success border rounded-5 p-5 ms-5">
-              Horarios de Atencion: Todos los dias desde 8am hasta 8pm
-            </div>
-            <div className="text-center text-white col-3 fs-3 bg-success border rounded-5  p-5 me-5">
-              Nuestra Ubicacion: Pasaje Santa Marta #550
-            </div>
+                <Card style={{ width: "25rem", height: "15rem" }} bg="success" text="white" border="success" className="ms-5">
+                  <Card.Body className="d-flex flex-column align-items-center justify-content-center">
+                    <Card.Title className="fs-2">Horarios de Atencion:</Card.Title>
+                    <Card.Text className="fs-3 px-5">
+                    Todos los dias desde 8am hasta 8pm
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+                <Card style={{ width: "25rem", height: "15rem" }} bg="success" text="white" border="success" className="me-5">
+                  <Card.Body className="d-flex flex-column align-items-center justify-content-center">
+                    <Card.Title className="fs-2">Nuestra Ubicacion:</Card.Title>
+                    <Card.Text className="fs-3">
+                    Pasaje Santa Marta #550
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
           </div>
           <div className="container d-flex justify-content-center my-5 pt-5">
             {isLoaded ? (
@@ -90,7 +112,7 @@ const Contacto = () => {
               <></>
             )}
           </div>
-        </div>
+          </div>
       </PageTemplate>
     </div>
   );
