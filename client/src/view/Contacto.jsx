@@ -219,46 +219,6 @@ const Contacto = () => {
               </Card.Body>
             </Card>
           </div>
-          {/* <Card
-            bg="success"
-            text="white"
-            border="success"
-            className="p-4 mx-5 rounded-5"
-          >
-            <Card.Body className="fs-3">
-              <Card.Title className="fs-1 mb-4 text-center">
-                Informacion de contacto
-              </Card.Title>
-              <Card.Text>
-                <ListGroup as="ol" numbered>
-                  <ListGroup.Item as="li" variant="success">
-                    <div className="container d-flex ">
-                      <h2 className="mx-3">N° de Telefono:</h2>
-                      <p>+569 97419179</p>
-                    </div>
-                  </ListGroup.Item>
-                  <ListGroup.Item as="li" variant="success">
-                    <div className="container d-flex ">
-                      <h2 className="mx-3">Email:</h2>
-                      <p>vetpepita@gmail.com</p>
-                    </div>
-                  </ListGroup.Item>
-                  <ListGroup.Item as="li" variant="success">
-                    <div className="container d-flex ">
-                      <h2 className="mx-3">Horarios de Atencion:</h2>
-                      <p>Todos los dias desde 8am hasta 8pm</p>
-                    </div>
-                  </ListGroup.Item>
-                  <ListGroup.Item as="li" variant="success">
-                    <div className="container d-flex ">
-                      <h2 className="mx-3">Nuestra Ubicacion:</h2>
-                      <p>Pasaje Santa Marta #550</p>
-                    </div>
-                  </ListGroup.Item>
-                </ListGroup>
-              </Card.Text>
-            </Card.Body>
-          </Card> */}
           <div>
             {isLoaded ? (
               <GoogleMap
@@ -270,7 +230,7 @@ const Contacto = () => {
               >
                 {
                   <Marker
-                    key="marker_1"
+                    key="marker_2"
                     title="Clinica Veterinaria Pepita"
                     position={{
                       lat: -34.18303,
