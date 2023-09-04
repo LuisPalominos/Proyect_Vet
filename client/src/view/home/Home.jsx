@@ -11,7 +11,7 @@ const Home = () => {
   // ---------------------------------------------
   const containerStyle = {
     width: "1000px",
-    height: "400px",
+    height: "500px",
   };
 
   const center = {
@@ -51,7 +51,7 @@ const Home = () => {
           <img className={styles.img} src={imagenPortada} alt="My Image" />
           <div className={styles.nombre}>
             <hr className="border border-5 border-success opacity-50" />
-            <p>Clinica Veterinaria Pepita</p>
+            <p className="text-success-emphasis">Clinica Veterinaria Pepita</p>
             <hr className="border border-5 border-success opacity-50" />
           </div>
           <div className={styles.info1}>
@@ -66,11 +66,12 @@ const Home = () => {
           </div>
           <div className={styles.info3}>
             <h3 className="text-white text-center mb-3">Contactenos</h3>
-            <p className="text-white text-center">Fono: +569 97419179</p>
+            <p className="text-white text-center mb-0">Fono: +569 97419179</p>
             <p className="text-white text-center">Email: vetpepita@gmail.com</p>
           </div>
           <div className="container text-center mt-5 pt-5">
             <h1 className="pt-5 ">Clinica Veterinaria Pepita</h1>
+            <hr className="border border-3 border-success opacity-50 mt-3 mb-1" />
             <p className="container p-5 fs-3">
               Dedicados a cuidar la salud y bienestar de tus mascotas. Somos un
               equipo multidisciplinario y de referencia de la región de

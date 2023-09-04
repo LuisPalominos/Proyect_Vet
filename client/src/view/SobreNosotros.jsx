@@ -36,7 +36,7 @@ const SobreNosotros = () => {
           </p>
         </div>
         <div className="container d-flex justify-content-between">
-          <Card style={{ width: "18rem"}} bg="success" text="white" border="success">
+          <Card style={{ width: "25rem"}} bg="success" text="white" border="success" className="p-3">
             <Card.Img variant="top" src={procedimientos} style={{height: "10rem" }}/>
             <Card.Body>
               <Card.Title>
@@ -60,7 +60,7 @@ const SobreNosotros = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ width: "18rem"}} bg="success" text="white" border="success">
+          <Card style={{ width: "25rem"}} bg="success" text="white" border="success" className="p-3">
             <Card.Img variant="top" src={vision} style={{height: "10rem" }} />
             <Card.Body>
               <Card.Title>Mision</Card.Title>
@@ -74,7 +74,7 @@ const SobreNosotros = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ width: "18rem" }} bg="success" text="white" border="success">
+          <Card style={{ width: "25rem" }} bg="success" text="white" border="success" className="p-3">
             <Card.Img variant="top" src={futuro} style={{height: "10rem" }}/>
             <Card.Body>
               <Card.Title>Hacia Futuro</Card.Title>
